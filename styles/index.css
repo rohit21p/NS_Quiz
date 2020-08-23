@@ -23,7 +23,31 @@ body {
   align-items: center;
 }
 
-.option {
-  height: 30%;
+.options a {
+  height: 10%;
+  width: 10%;
   vertical-align: center;
+  border: black solid 8px;
+  background-color: transparent;
+  padding: 5%;
+  text-decoration: none;
+}
+
+.football {
+  background-image: url("./football.jpg");
+  background-size: 100% 100%;
+}
+
+.cricket {
+  background-image: url("./cricket.jpg");
+  background-size: 100% 100%;
+}
+
+.html {
+  background-image: url("./html.png");
+  background-size: 100% 100%;
+}
+
+.logo {
+  font-family: 'Work Sans', sans-serif;
 }
